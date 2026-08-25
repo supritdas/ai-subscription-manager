@@ -634,24 +634,6 @@ Possible future improvements include:
 
 ---
 
-# Academic Objective
-
-This project demonstrates fundamental concepts of **Agentic AI**, including:
-
-- LLM-based decision making
-- Tool calling
-- Agent instructions
-- Persistent memory
-- State retrieval
-- Multi-step reasoning
-- Goal-oriented behavior
-- External tool integration
-- Structured data storage
-
-The project demonstrates how an LLM can move beyond simple question answering by interacting with external tools and using their results to make decisions.
-
----
-
 # What Makes This Project Agentic?
 
 A conventional application might contain fixed logic such as:
