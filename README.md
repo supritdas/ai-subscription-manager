@@ -6,7 +6,7 @@ The project uses **Groq** as the LLM provider, the **OpenAI Agents SDK** for age
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Managing multiple subscriptions can make it difficult to keep track of monthly expenses and renewal dates.
 
@@ -26,7 +26,7 @@ The system is **agentic** because the AI agent can decide which tools it needs t
 
 ---
 
-# ✨ Features
+# Features
 
 ## 1. Subscription Management
 
@@ -85,7 +85,7 @@ subscriptions.db
 
 ---
 
-# 🤖 Agentic Budget Management
+# Agentic Budget Management
 
 This is the main agentic feature of the project.
 
@@ -183,7 +183,7 @@ This decision-making process is the primary agentic component of the project.
 
 ---
 
-# 💰 Yearly Cost View
+# Yearly Cost View
 
 The application can calculate the estimated yearly subscription cost.
 
@@ -207,7 +207,7 @@ the yearly estimate is:
 
 ---
 
-# 🔔 Renewal Date Tracking
+# Renewal Date Tracking
 
 Subscriptions can optionally have a renewal date.
 
@@ -237,7 +237,7 @@ The agent uses the renewal-date tool to retrieve matching subscriptions.
 
 ---
 
-# 🧠 How the Agent Works
+# How the Agent Works
 
 The project follows a tool-using agent architecture.
 
@@ -285,7 +285,7 @@ The agent does not simply execute a fixed sequence of instructions. The LLM dete
 
 ---
 
-# 🛠️ Tools
+# Tools
 
 | Tool | Purpose |
 |---|---|
@@ -299,7 +299,7 @@ The agent does not simply execute a fixed sequence of instructions. The LLM dete
 
 ---
 
-# 🗄️ Database Schema
+# Database Schema
 
 The application uses SQLite.
 
@@ -328,7 +328,7 @@ key = monthly_budget
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 ai-subscription-manager/
@@ -393,7 +393,7 @@ Application entry point.
 
 ---
 
-# 🔧 Technologies Used
+# Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -406,7 +406,7 @@ Application entry point.
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## 1. Clone the repository
 
@@ -439,7 +439,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🔑 Configure Groq API Key
+# Configure Groq API Key
 
 Create a `.env` file in the project root:
 
@@ -462,7 +462,7 @@ subscriptions.db
 
 ---
 
-# ▶️ Running the Application
+# Running the Application
 
 From the project root:
 
@@ -486,7 +486,7 @@ You can now interact with the AI agent.
 
 ---
 
-# 💬 Example Usage
+# Example Usage
 
 ### Add subscriptions
 
@@ -545,7 +545,7 @@ You: Which subscriptions are renewing in the next 7 days?
 
 ---
 
-# 🧪 Testing
+# Testing
 
 The project was tested for:
 
@@ -588,7 +588,7 @@ It evaluates possible cancellation options and recommends an option that brings 
 
 ---
 
-# 🔐 Security
+# Security
 
 The Groq API key is stored in an environment variable rather than hard-coded in the source code.
 
@@ -602,7 +602,7 @@ The SQLite database is also excluded from version control because it contains lo
 
 ---
 
-# ⚠️ Limitations
+# Limitations
 
 1. The AI recommends subscriptions for cancellation but does not automatically cancel them.
 2. Actual cancellation must be performed manually by the user.
@@ -614,7 +614,7 @@ The SQLite database is also excluded from version control because it contains lo
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 Possible future improvements include:
 
@@ -634,7 +634,7 @@ Possible future improvements include:
 
 ---
 
-# 🎓 Academic Objective
+# Academic Objective
 
 This project demonstrates fundamental concepts of **Agentic AI**, including:
 
@@ -652,7 +652,7 @@ The project demonstrates how an LLM can move beyond simple question answering by
 
 ---
 
-# 🧩 What Makes This Project Agentic?
+# What Makes This Project Agentic?
 
 A conventional application might contain fixed logic such as:
 
@@ -684,7 +684,7 @@ Therefore, the cancellation recommendation is based on the **current state of th
 
 ---
 
-# 📊 High-Level Workflow
+# High-Level Workflow
 
 ```text
                  User Request
@@ -713,7 +713,7 @@ Therefore, the cancellation recommendation is based on the **current state of th
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Suprit Das**
 
@@ -721,6 +721,4 @@ CA1 - CSE476 (Agentic AI and Intelligent Automation)
 
 ---
 
-# 📄 License
 
-This project is intended for educational and academic purposes.
