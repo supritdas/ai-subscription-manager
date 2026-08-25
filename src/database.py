@@ -2,10 +2,10 @@ import sqlite3
 from pathlib import Path
 
 
-# Find the project root directory
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Database file location
+
 DB_PATH = BASE_DIR / "subscriptions.db"
 
 
@@ -21,7 +21,7 @@ def initialize_database():
 
     connection = get_connection()
 
-    # Subscriptions table
+
     connection.execute("""
         CREATE TABLE IF NOT EXISTS subscriptions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -32,7 +32,6 @@ def initialize_database():
         )
     """)
 
-    # Settings table
     connection.execute("""
         CREATE TABLE IF NOT EXISTS settings (
             key TEXT PRIMARY KEY,
