@@ -7,7 +7,6 @@ from agent import subscription_agent
 
 
 async def main():
-    # Make sure the database exists
     initialize_database()
 
     print("=" * 50)
