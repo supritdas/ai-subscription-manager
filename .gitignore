@@ -1,6 +1,17 @@
 venv/
+.venv/
+
 .env
+
 __pycache__/
 *.pyc
+
 subscriptions.db
+demo_subscriptions.db
+demo_agent_memory.db
+demo_agent_memory.db-shm
+demo_agent_memory.db-wal
+
 .pytest_cache/
+
+.vscode/
